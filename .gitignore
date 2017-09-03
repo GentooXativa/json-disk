@@ -12,3 +12,5 @@ CTestTestfile.cmake
 CPackConfig.cmake
 CPackSourceConfig.cmake
 json_disk
+build/CMakeTools/CMakeToolsHelpers.cmake
+build/CMakeTools/InitializeCache.cmake
