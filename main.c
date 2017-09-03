@@ -9,7 +9,6 @@
 
 typedef enum { false, true } bool;
 
-
 int main (int argc, char *argv[])
 {
     struct mntent *ent;
