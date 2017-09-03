@@ -1,6 +1,12 @@
 # json-disk
 A simple C application to get the information about mountpoints and free space with JSON output.
 
+# Usage
+Usage: json_disk [-h] [-m]
+        -h      Show this help
+        -m      Use /etc/mtab instead of /etc/fstab
+
+
 # Example output
 ```json
 [
