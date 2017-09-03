@@ -33,7 +33,7 @@ int main (int argc, char *argv[])
           first = false;
         }
 
-        printf("{ mountpoint: \"%s\", total: %ld, free: %ld, type: \"%s\", fsname: \"%s\", fsopts: \"%s\" }",
+        printf("{ \"mountpoint\": \"%s\", \"total\": %ld, \"free\": %ld, \"type\": \"%s\", \"fsname\": \"%s\", \"fsopts\": \"%s\" }",
           ent->mnt_dir, ( vfs.f_bsize * vfs.f_bfree ), ( vfs.f_bsize * vfs.f_blocks ), ent->mnt_type, ent->mnt_fsname, ent->mnt_opts );
       }
     }
